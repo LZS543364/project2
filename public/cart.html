@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/cart.css">
+	<script src='js/webREM.js'></script>
+	<title>购物车</title>
+</head>
+<body>
+	<header>
+		<h1>购物车</h1>
+		<button class="btn-edit">编辑</button>
+	</header>
+	<div class="content">
+		<ul class="cart-list"></ul>
+	</div>
+	<footer class="footer-normal">
+		<div class="all-wrapper">
+			<span class="checked all checkbox"></span>&nbsp全选
+		</div>
+		<div class="total-price-wrapper">
+			合计：<em>￥<span class="total-price"></span></em>
+		</div>
+		<button class="btn-settlement">结算<span class="total-count"></span></button>
+	</footer>
+	<footer class="footer-edit">
+		<div class="all-wrapper">
+			<span class="all checkbox"></span>&nbsp全选
+		</div>
+		<button class="btn-remove">删除</button>
+	</footer>
+
+	<script src='js/jQuery-3.4.0.js'></script>
+	<script src='js/js.cookie.min.js'></script>
+	<script src='js/myHttp.js'></script>
+	<script src='js/cart.js'></script>
+</body>
+</html>
